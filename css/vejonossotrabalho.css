@@ -1,0 +1,477 @@
+@charset = "UTF-8";
+
+
+		/*Aqui começa Estilização Principal*/
+
+body{
+				
+
+
+}
+
+
+		/*Aqui comeca logo*/
+div#logo{background-color: black;
+			width: 903px;
+			padding: 30px 850px 80px 0px;
+			position: absolute;
+			left: 320px;
+			top: 740px;
+			border-radius: 18px 18px 18px 18px;
+			box-shadow: 0px 0px 8px 5px gray;
+			
+			
+}
+
+img.logo3{
+	position: absolute;
+	top: -23px;
+	left: 112px;
+	margin: 0;
+	padding: 0;
+	z-index: 9999;
+}
+
+img.logo4{
+	position: absolute;
+	top: -23px;
+	left: 727px;
+	margin: 0;
+	padding: 0;
+	z-index: 9999;
+}
+
+
+			h1.titulo {
+    color: rgb(248, 244, 118);
+    font-family: serif;
+    font-size: 40pt;
+    position: absolute;
+    top: 0px;
+    left: 208px;
+    margin: 0px;
+    font-weight: bold;
+    padding: 0px;
+    z-index: 9999;
+}
+
+			h2.sub {
+    color: #ffffff;
+    font-family: serif;
+    padding: 0px;
+    font-size: 20pt;
+    position: absolute;
+    left: 329px;
+    top: 64px;
+    margin: 0px;
+    font-weight: bold;
+    z-index: 9999;
+}
+
+
+img#sofa{
+				position: absolute;
+				left: 1096px;
+				top: 745px;
+				float: inline-block;
+				width: 250px;
+				margin: 0px;
+				padding: 0px;
+				z-index: 9999;
+				
+}
+		
+
+
+
+		/*Aqui é o posicionamento*/
+
+	div#posicao{position: absolute;
+				left: 50px;
+				margin-left: -150px;
+				top: -740px;
+				padding: 0px;
+				
+}
+
+		
+
+
+		/*Aqui comeca rodapé*/
+
+div#rodape {
+    background-color: black;
+    width: 896px;
+    padding: 30px;
+    position: absolute;
+    left: 322px;
+    top: 1910px;
+    border-radius: 0px 0px 18px 18px;
+    box-shadow: 0px 0px 10px 8px;
+    margin: 0px;
+}
+
+h2.fim {
+    color: #ffffff;
+    margin-left: 0px;
+    padding-left: 0px;
+    font-size: 20pt;
+    position: absolute;
+    left: 284px;
+    top: 14px;
+    margin: 0px;
+    font-family: serif;
+    align: center;
+}	
+		/*Aqui termina rodapé*/
+
+
+div#foco {
+    background-color: #ffffff;
+    width: 868px;
+    position: absolute;
+    left: 322px;
+    top: 764px;
+    padding: 1047px 50px 150px 846px;
+    box-shadow: 2px 0px 15px 8px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0px;
+}
+
+div#banner{background-color: black;
+			position: absolute;
+			top: 150px;
+			left: 0px;
+			margin: 0px;
+			width: 896px;
+			padding: 201px 0px 0px 0px;
+}	
+
+
+div#interface{
+	position: absolute;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+	/*Aqui termina a estilização principal*/
+
+
+	/*Aqui comeca menu*/
+
+	ul.cat li.sofa {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    font-size: 13pt;
+    font-family: arial serif;
+    width: 69px;
+    text-align: center;
+    border-radius: 15px;
+    transition: background-color 1s;
+}
+
+ul.cat li.pol {
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    display: inline-block;
+    width: 69px;
+    text-align: center;
+    border-radius: 0px;
+    transition: background-color 1s;
+    font-size: 13pt;
+    font-family: arial serif;
+    margin: 0px;
+    border-radius: 0px 0px 15px 14px;
+    padding: 0px;
+}
+
+	
+ul li a{
+	text-decoration: none;
+	display: block;
+
+
+}
+
+ul ul{
+	display: none;
+	
+}
+
+ul ul li{
+	display: block;
+	
+}
+
+ul li:hover ul{
+	display: block;
+
+
+}
+	
+
+
+
+
+
+
+
+	
+
+			li{
+				list-style:none;
+				display: inline-block;
+				
+			}
+
+			li {
+    color: #ffffff;
+    background-color: #5f5a5c;
+    padding: 2px;
+    padding-left: 4px;
+    position: relative;
+    left: 525px;
+    top: 866px;
+    transition: background-color 1s;
+    font-size: 13pt;
+    font-family: arial serif;
+    margin: 0px;
+    border-radius: 20px;
+}
+
+			nav#menu li:hover{
+				background-color: rgb(179, 174, 166);
+			}
+						div.navbar {
+    color: #ffffff;
+    position: absolute;
+    top: 866px;
+    left: 322px;
+    padding: 15px;
+    background-color: #626262;
+    width: 232px;
+    border-radius: 0px 18px 18px 0px;
+}
+					
+					div.navbar2 {
+    color: #ffffff;
+    position: absolute;
+    top: 866px;
+    left: 1001px;
+    padding: 15px;
+    background-color: #626262;
+    width: 216px;
+    border-radius: 18px 0px 0px 18px;
+}
+			
+
+			/*Aqui comeca Titulo Principal*/
+
+
+p.principal{font-family: 'fontlogo';
+			font-size: 35pt;
+			position: absolute;
+			left: 68px;
+			top: -3px;
+			color: #ffffff;
+			text-align: center;
+}
+
+
+
+
+
+			/*Aqui comeca o conteudo*/
+
+
+
+
+		img.foto1{
+			position: absolute;
+			left: 18px;
+			top: 380px;
+			width: 242px;
+			height: 241px;
+		}	
+
+		img.foto1:hover{
+			position: absolute;
+			top: 350px;
+			left: 0px;
+			width: 300px;
+			height: 300px;
+			z-index: 9999;
+		}
+
+		img.foto2{
+			position: absolute;
+			left: 326px;
+			top: 380px;
+			width: 240px;
+			height: 240px;
+			border: solid 12px rgb(32, 34, 31) ;
+		}
+
+		img.foto2:hover{
+			position: absolute;
+			top: 350px;
+			left: 300px;
+			width: 300px;
+			height: 300px;
+			z-index: 9999;
+		}
+
+		img.foto3{
+			position: absolute;
+			left: 638px;
+			top: 380px;
+			width: 240px;
+			height: 240px;
+			border: solid 12px rgb(32, 34, 31) ;
+		}
+
+		img.foto3:hover{
+			position: absolute;
+			top: 350px;
+			left: 600px;
+			width: 300px;
+			height: 300px;
+			z-index: 9999;
+		}
+
+
+		img.foto4{
+			position: absolute;
+			left: 17px;
+			top: 641px;
+			width: 240px;
+			height: 240px;
+			border: solid 12px rgb(32, 34, 31) ;
+		}
+
+		img.foto4:hover{
+			position: absolute;
+			top: 611px;
+			left: -2px;
+			width: 300px;
+			height: 300px;
+			z-index: 9999;
+		}
+
+		img.foto5{
+			position: absolute;
+			left: 326px;
+			top: 641px;
+			width: 240px;
+			height: 240px;
+			border: solid 12px rgb(32, 34, 31) ;
+		}
+
+		img.foto5:hover{
+			position: absolute;
+			top: 611px;
+			left: 300px;
+			width: 300px;
+			height: 300px;
+			z-index: 9999;
+		}
+
+		img.foto6{
+			position: absolute;
+			left: 638px;
+			top: 641px;
+			width: 240px;
+			height: 240px;
+			border: solid 12px rgb(32, 34, 31) ;
+		}
+
+		img.foto6:hover{
+			position: absolute;
+			top: 611px;
+			left: 600px;
+			width: 300px;
+			height: 300px;
+			z-index: 9999;
+		}
+
+		img.foto7{
+			position: absolute;
+			left: 17px;
+			top: 901px;
+			width: 240px;
+			height: 240px;
+			border: solid 12px rgb(32, 34, 31) ;
+		}
+
+		img.foto7:hover{
+			position: absolute;
+			top: 880px;
+			left: -2px;
+			width: 300px;
+			height: 300px;
+			z-index: 9999;
+		}
+
+		img.foto8{
+			position: absolute;
+			left: 326px;
+			top: 901px;
+			width: 240px;
+			height: 240px;
+			border: solid 12px rgb(32, 34, 31) ;
+		}
+
+		img.foto8:hover{
+			position: absolute;
+			top: 880px;
+			left: 300px;
+			width: 300px;
+			height: 300px;
+			z-index: 9999;
+		}
+
+		img.foto9{
+			position: absolute;
+			left: 638px;
+			top: 901px;
+			width: 240px;
+			height: 240px;
+			border: solid 12px rgb(32, 34, 31) ;
+		}
+
+		img.foto9:hover{
+			position: absolute;
+			top: 880px;
+			left: 600px;
+			width: 300px;
+			height: 300px;
+			z-index: 9999;
+		}
+		
+
+
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+		
+
+		
+
+		

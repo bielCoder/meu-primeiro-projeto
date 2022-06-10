@@ -1,0 +1,181 @@
+@charset = "UTF-8";
+
+
+		/*Aqui começa Estilização Principal*/
+
+body{
+				
+
+
+}
+
+
+		/*Aqui comeca logo*/
+div#logo {
+    background-color: black;
+    width: 903px;
+    padding: 30px 850px 80px 482px;
+    position: absolute;
+    left: 110px;
+    top: 740px;
+    border-radius: 18px 18px 18px 18px;
+    box-shadow: 0px 0px 8px 5px grey;
+}
+
+img.logo3 {
+    position: absolute;
+    top: -23px;
+    left: 273px;
+    margin: 0;
+    padding: 0;
+    z-index: 9999;
+}
+
+img.logo4 {
+    position: absolute;
+    top: -23px;
+    left: 920px;
+    margin: 0;
+    padding: 0;
+    z-index: 9999;
+}
+
+
+
+img.logo2{
+	background-color: rgb(32, 34, 31);
+	position: absolute;
+	top: 620px;
+	left: 853px;
+
+
+}
+
+
+h1.titulo {
+    color: rgb(248, 244, 118);
+    font-family: serif;
+    font-size: 40pt;
+    position: absolute;
+    top: 0px;
+    left: 389px;
+    margin: 0px;
+    font-weight: bold;
+    padding: 0px;
+    z-index: 9999;
+    text-align: center;
+}
+
+			h2.sub {
+    color: #ffffff;
+    font-family: serif;
+    padding: 0px;
+    font-size: 20pt;
+    position: absolute;
+    left: 539px;
+    top: 64px;
+    margin: 0px;
+    font-weight: bold;
+    z-index: 9999;
+    text-align: center;
+}
+
+
+img#sofa{
+				position: absolute;
+				left: 1096px;
+				top: 745px;
+				float: inline-block;
+				width: 250px;
+				margin: 0px;
+				padding: 0px;
+				z-index: 9999;
+			
+}
+		
+
+
+
+		/*Aqui é o posicionamento*/
+
+	div#posicao{position: absolute;
+				left: 50px;
+				margin-left: -150px;
+				top: -740px;
+				padding: 0px;
+				
+}
+
+		
+
+
+		/*Aqui comeca rodapé*/
+
+div#rodape {
+    background-color: black;
+    width: 1326px;
+    padding: 30px;
+    position: relative;
+    left: 112px;
+    top: 744px;
+    border-radius: 0px 0px 18px 18px;
+    box-shadow: 0px 0px 10px 8px;
+    margin: 0px;
+}
+h2.fim {
+    color: #ffffff;
+    margin-left: 0px;
+    padding-left: 0px;
+    font-size: 20pt;
+    position: absolute;
+    left: 484px;
+    top: 14px;
+    margin: 0px;
+    font-family: serif;
+    align: center;
+}	
+		/*Aqui termina rodapé*/
+
+
+
+div#foco {
+    background-color: #ffffff;
+    width: 868px;
+    position: relative;
+    left: 116px;
+    top: 764px;
+    padding: 450px 50px 150px 1271px;
+    box-shadow: 2px 0px 15px 8px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0px;
+}
+
+			
+
+			/*Aqui comeca Titulo Principal*/
+
+
+input.mostrar {
+    position: absolute;
+    left: 1244px;
+    top: 104px;
+}
+
+
+a.logout {
+    position: absolute;
+    left: 631px;
+    top: 105px;
+    color: blue;
+    text-decoration: none;
+    border-radius: 12px;
+    list-style: none;
+    font-size: 13pt;
+}
+input.nome {
+    position: absolute;
+    top: 105px;
+    left: 1048px;
+    border-radius: 15px;
+    text-align: center;
+}

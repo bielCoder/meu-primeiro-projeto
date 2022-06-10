@@ -1,0 +1,1045 @@
+@charset = "UTF-8";
+
+
+		/*Aqui começa Estilização Principal*/
+
+body{
+				
+
+
+}
+
+
+		/*Aqui comeca logo*/
+div#logo{background-color: black;
+			width: 903px;
+			padding: 30px 850px 80px 0px;
+			position: absolute;
+			left: 320px;
+			top: 740px;
+			border-radius: 18px 18px 18px 18px;
+			box-shadow: 0px 0px 8px 5px gray;
+			
+			
+}
+
+img.logo3{
+	position: absolute;
+	top: -23px;
+	left: 112px;
+	margin: 0;
+	padding: 0;
+	z-index: 9999;
+}
+
+img.logo4{
+	position: absolute;
+	top: -23px;
+	left: 727px;
+	margin: 0;
+	padding: 0;
+	z-index: 9999;
+}
+
+div.navbar{
+	background-color:#5f5a5c;
+	position: absolute;
+	top: 866px;
+	left: 322px;
+
+
+
+
+}
+
+
+div.navbar2{
+	background-color:#5f5a5c;
+	position: absolute;
+	top: 866px;
+	left: 1033px;}
+
+img.logo2{
+	background-color: rgb(32, 34, 31);
+	position: absolute;
+	top: 620px;
+	left: 853px;
+
+
+}
+
+
+			h1.titulo {
+    color: rgb(248, 244, 118);
+    font-family: serif;
+    font-size: 40pt;
+    position: absolute;
+    top: 0px;
+    left: 208px;
+    margin: 0px;
+    font-weight: bold;
+    padding: 0px;
+    z-index: 9999;
+}
+
+			h2.sub {
+    color: #ffffff;
+    font-family: serif;
+    padding: 0px;
+    font-size: 20pt;
+    position: absolute;
+    left: 329px;
+    top: 64px;
+    margin: 0px;
+    font-weight: bold;
+    z-index: 9999;
+}
+
+
+img#sofa{
+				position: absolute;
+				left: 1096px;
+				top: 745px;
+				float: inline-block;
+				width: 250px;
+				margin: 0px;
+				padding: 0px;
+				z-index: 9999;
+				
+}
+		
+
+
+
+		/*Aqui é o posicionamento*/
+
+	div#posicao{position: absolute;
+				left: 50px;
+				margin-left: -150px;
+				top: -740px;
+				padding: 0px;
+				
+}
+
+		
+
+
+		/*Aqui comeca rodapé*/
+
+div#rodape {
+    background-color: black;
+    width: 896px;
+    padding: 30px;
+    position: absolute;
+    left: 322px;
+    top: 1688px;
+    border-radius: 0px 0px 18px 18px;
+    box-shadow: 0px 0px 10px 8px;
+    margin: 0px;
+}
+
+h2.fim {
+    color: #ffffff;
+    margin-left: 0px;
+    padding-left: 0px;
+    font-size: 20pt;
+    position: absolute;
+    left: 284px;
+    top: 14px;
+    margin: 0px;
+    font-family: serif;
+    align: center;
+}	
+		/*Aqui termina rodapé*/
+
+
+div#foco {
+    background-color: #ffffff;
+    width: 868px;
+    position: absolute;
+    left: 322px;
+    top: 764px;
+    padding: 822px 50px 150px 846px;
+    box-shadow: 2px 0px 15px 8px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0px;
+}
+
+div#banner{background-color: black;
+			position: absolute;
+			top: 150px;
+			left: 0px;
+			margin: 0px;
+			width: 896px;
+			padding: 201px 0px 0px 0px;
+}	
+
+
+div#interface{
+	position: absolute;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+	/*Aqui termina a estilização principal*/
+
+
+	/*Aqui comeca menu*/
+
+ul.cat li.sofa {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    font-size: 13pt;
+    font-family: arial serif;
+    width: 69px;
+    text-align: center;
+    border-radius: 15px;
+    transition: background-color 1s;
+}
+
+ul.cat li.pol {
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    display: inline-block;
+    width: 69px;
+    text-align: center;
+    border-radius: 0px;
+    transition: background-color 1s;
+    font-size: 13pt;
+    font-family: arial serif;
+    margin: 0px;
+    border-radius: 0px 0px 15px 14px;
+    padding: 0px;
+}
+
+    
+ul li a{
+    text-decoration: none;
+    display: block;
+
+
+}
+
+ul ul{
+    display: none;
+    
+}
+
+ul ul li{
+    display: block;
+    
+}
+
+ul li:hover ul{
+    display: block;
+
+
+}
+
+
+			li{
+				list-style:none;
+				display: inline-block;
+				
+			}
+				
+
+			li {
+    color: #ffffff;
+    background-color: #5f5a5c;
+    padding: 2px;
+    padding-left: 4px;
+    position: relative;
+    left: 525px;
+    top: 866px;
+    transition: background-color 1s;
+    font-size: 13pt;
+    font-family: arial serif;
+    margin: 0px;
+    border-radius: 20px;
+}
+
+
+
+
+			nav#menu li:hover{
+				background-color: rgb(179, 174, 166);
+			}
+
+div.navbar {
+    color: #ffffff;
+    position: absolute;
+    top: 866px;
+    left: 322px;
+    padding: 15px;
+    background-color: #626262;
+    width: 232px;
+    border-radius: 0px 18px 18px 0px;
+}
+                    
+                    div.navbar2 {
+    color: #ffffff;
+    position: absolute;
+    top: 866px;
+    left: 1001px;
+    padding: 15px;
+    background-color: #626262;
+    width: 216px;
+    border-radius: 18px 0px 0px 18px;
+}
+			
+
+			/*Aqui comeca Titulo Principal*/
+
+
+p.principal {
+    font-family: 'fontlogo';
+    font-size: 32pt;
+    position: absolute;
+    left: 41px;
+    top: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: langth;
+}
+
+
+p.para2{
+	font-family: 'fontlogo';
+			font-size: 28pt;
+			position: absolute;
+			left: 279px;
+			top: 149px;
+			
+			align: center;
+	font-weight: bold;
+	text-align: center;
+}
+	
+	a#cor{
+		color: #f8f476;
+		text-decoration: none;
+	}
+	
+
+
+
+
+
+
+			/*Aqui comeca o conteudo1*/
+
+
+
+
+div.fundoz {
+    background-color: #fffdb1;
+    padding: 89px 50px 50px 322px;
+    position: absolute;
+    top: 398px;
+    left: 40px;
+    border-radius: 18px;
+    opacity: 0.8;
+}
+
+img#fundo-geral {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    left: 40px;
+    top: 398px;
+    width: 206px;
+    height: 139px;
+    margin: 0px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+
+div#venda {
+    background-repeat: no-repeat;
+    background-position: 0px;
+    position: absolute;
+    top: 369px;
+    left: 41px;
+    padding: 100px 100px 100px 300px;
+    z-index: 9999;
+
+
+}
+
+
+element.style {
+}
+div.venda1 {
+    background-color: #5f5a5c;
+    position: absolute;
+    top: 29px;
+    left: 205px;
+    opacity: 0.3;
+    padding: 124px 15px 15px 151px;
+    border-radius: 0px 20px 20px 0px;
+}		
+
+p.venda1 {
+    color: white;
+    font-size: 11pt;
+    position: absolute;
+    left: 235px;
+    top: 28px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+div.linha1 {
+    position: absolute;
+    top: 115px;
+    left: 204px;
+    background-color: white;
+    padding: 0px 5px 1px 167px;
+    margin: 0;
+    z-index: 9999;
+    border-radius: 20px;
+}
+
+
+p.valor2 {
+    color: rgb(178,34,34);
+    font-size: 12pt;
+    position: absolute;
+    top: 483px;
+    left: 261px;
+    font-weight: bold;
+    font-weight: bolder;
+}
+
+p.valor3 {
+    color: rgb(178,34,34);
+    font-size: 11pt;
+    position: absolute;
+    top: 498px;
+    left: 263px;
+    font-weight: bold;
+    font-weight: bolder;
+}
+	p.valor4 {
+    color: rgb(178,34,34);
+    font-size: 8pt;
+    position: absolute;
+    top: 515px;
+    left: 251px;
+    font-weight: bold;
+    font-weight: bolder;
+}		
+
+img.icone {
+    width: 36px;
+    height: 26px;
+    position: absolute;
+    top: 419px;
+    left: 377px;
+    z-index: 9999;
+}
+
+
+
+ /*fim conteudo1*/			
+
+
+div.conteudo2{position: absolute;
+	left: 450px;
+	top: 0px;
+}
+
+
+div.fundoz2 {
+    background-color: #fffdb1;
+    padding: 90px 50px 50px 327px;
+    position: absolute;
+    top: 398px;
+    left: 40px;
+    border-radius: 18px;
+    opacity: 0.8;
+}
+
+img#fundo-geral {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    left: 40px;
+    top: 398px;
+    width: 206px;
+    height: 139px;
+    margin: 0px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+
+div#venda2 {
+    background-repeat: no-repeat;
+    background-position: 0px;
+    position: absolute;
+    top: 369px;
+    left: 41px;
+    padding: 100px 100px 100px 300px;
+    
+
+}
+
+div.venda2 {
+    background-color: #66655b;
+    position: absolute;
+    top: 29px;
+    left: 205px;
+    opacity: 0.4;
+    padding: 125px 15px 15px 156px;
+    border-radius: 0px 20px 20px 0px;
+}		
+
+p.venda2 {
+    color: white;
+    font-size: 11pt;
+    position: absolute;
+    left: 235px;
+    top: 28px;
+    font-weight: bold;
+    text-align: center;
+   
+}
+
+div.linha2 {
+    position: absolute;
+    top: 115px;
+    left: 204px;
+    background-color: white;
+    padding: 0px 5px 1px 167px;
+    margin: 0;
+    z-index: 9999;
+    border-radius: 20px;
+}
+
+
+
+p.valor22 {
+    color: rgb(178,34,34);
+    font-size: 12pt;
+    position: absolute;
+    top: 483px;
+    left: 263px;
+    font-weight: bold;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 0px;
+}
+
+p.valor23 {
+    color: rgb(178,34,34);
+    font-size: 11pt;
+    position: absolute;
+    top: 499px;
+    left: 266px;
+    font-weight: bold;
+    font-weight: bolder;
+}
+	p.valor24 {
+    color:rgb(178,34,34);
+    font-size: 8pt;
+    position: absolute;
+    top: 515px;
+    left: 255px;
+    font-weight: bold;
+    font-weight: bolder;
+}		
+
+img.icone2 {
+    width: 36px;
+    height: 26px;
+    position: absolute;
+    top: 419px;
+    left: 379px;
+}
+
+		/*fim conteudo2*/
+
+
+div.conteudo3{position: absolute;
+	left: -3px;
+	top: 159px;
+}
+
+
+div.fundoz3{
+    background-color: #fffdb1;
+    padding: 88px 50px 50px 322px;
+    position: absolute;
+    top: 399px;
+    left: 40px;
+    border-radius: 18px;
+    opacity: 0.8;
+    
+}
+
+img#fundo-geral {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    left: 40px;
+    top: 398px;
+    width: 206px;
+    height: 139px;
+    margin: 0px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+
+div#venda3 {
+    background-repeat: no-repeat;
+    background-position: 0px;
+    position: absolute;
+    top: 369px;
+    left: 41px;
+    padding: 100px 100px 100px 300px;
+    
+
+}
+
+div.venda3 {
+    background-color: #66655b;
+    position: absolute;
+    top: 29px;
+    left: 205px;
+    opacity: 0.4;
+    padding: 125px 15px 15px 151px;
+    border-radius: 0px 20px 20px 0px;
+}		
+
+p.venda3 {
+    color: white;
+    font-size: 11pt;
+    position: absolute;
+    left: 228px;
+    top: 28px;
+    font-weight: bold;
+    text-align: center;
+   
+}
+
+div.linha3 {
+    position: absolute;
+    top: 115px;
+    left: 204px;
+    background-color: white;
+    padding: 0px 5px 1px 167px;
+    margin: 0;
+    z-index: 9999;
+    border-radius: 20px;
+}
+
+
+
+p.valor32 {
+    color: rgb(178,34,34);
+    font-size: 12pt;
+    position: absolute;
+    top: 483px;
+    left: 261px;
+    font-weight: bold;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 0px;
+}
+
+p.valor33 {
+    color: rgb(178,34,34);
+    font-size: 11pt;
+    position: absolute;
+    top: 498px;
+    left: 263px;
+    font-weight: bold;
+    font-weight: bolder;
+}
+	p.valor34 {
+    color: rgb(178,34,34);
+    font-size: 8pt;
+    position: absolute;
+    top: 515px;
+    left: 251px;
+    font-weight: bold;
+    font-weight: bolder;
+}		
+
+img.icone3 {
+    width: 36px;
+    height: 26px;
+    position: absolute;
+    top: 419px;
+    left: 377px;
+}			
+	
+/*Aqui termina conteudo3*/
+
+div.conteudo4{position: absolute;
+	left: 450px;
+	top: 159px;
+}
+
+
+div.fundoz4 {
+    background-color: #fffdb1;
+    padding: 90px 50px 50px 327px;
+    position: absolute;
+    top: 398px;
+    left: 40px;
+    border-radius: 18px;
+    opacity: 0.8;
+}
+
+img#fundo-geral {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    left: 40px;
+    top: 398px;
+    width: 206px;
+    height: 139px;
+    margin: 0px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+div#venda4 {
+    background-repeat: no-repeat;
+    background-position: 0px;
+    position: absolute;
+    top: 369px;
+    left: 41px;
+    padding: 100px 100px 100px 300px;
+}
+
+div.venda4 {
+    background-color: #66655b;
+    position: absolute;
+    top: 29px;
+    left: 205px;
+    opacity: 0.4;
+    padding: 125px 15px 15px 156px;
+    border-radius: 0px 20px 20px 0px;
+}		
+
+p.venda4 {
+    color: white;
+    font-size: 11pt;
+    position: absolute;
+    left: 217px;
+    top: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.linha4 {
+    position: absolute;
+    top: 115px;
+    left: 204px;
+    background-color: white;
+    padding: 0px 5px 1px 167px;
+    margin: 0;
+    z-index: 9999;
+    border-radius: 20px;
+}
+
+
+
+p.valor42 {
+    color: rgb(178,34,34);
+    font-size: 12pt;
+    position: absolute;
+    top: 484px;
+    left: 267px;
+    font-weight: bold;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 0px;
+}
+
+p.valor43 {
+    color: rgb(178,34,34);
+    font-size: 11pt;
+    position: absolute;
+    top: 499px;
+    left: 269px;
+    font-weight: bold;
+    font-weight: bolder;
+}
+	p.valor44 {
+    color: rgb(178,34,34);
+    font-size: 8pt;
+    position: absolute;
+    top: 515px;
+    left: 255px;
+    font-weight: bold;
+    font-weight: bolder;
+}		
+
+img.icone4 {
+    width: 36px;
+    height: 26px;
+    position: absolute;
+    top: 419px;
+    left: 379px;
+}
+
+/*Aqui termina conteudo4*/
+
+div.conteudo5 {
+    position: absolute;
+    left: -3px;
+    top: 321px;
+}
+
+
+div.fundoz5{
+    background-color: #fffdb1;
+    padding: 88px 50px 50px 322px;
+    position: absolute;
+    top: 399px;
+    left: 40px;
+    border-radius: 18px;
+    opacity: 0.8;
+    
+}
+
+img#fundo-geral {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    left: 40px;
+    top: 398px;
+    width: 206px;
+    height: 139px;
+    margin: 0px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+
+div#venda5 {
+    background-repeat: no-repeat;
+    background-position: 0px;
+    position: absolute;
+    top: 369px;
+    left: 41px;
+    padding: 100px 100px 100px 300px;
+    
+
+}
+
+div.venda5 {
+    background-color: #66655b;
+    position: absolute;
+    top: 29px;
+    left: 205px;
+    opacity: 0.4;
+    padding: 125px 15px 15px 151px;
+    border-radius: 0px 20px 20px 0px;
+}	
+
+div.linha5 {
+    position: absolute;
+    top: 115px;
+    left: 204px;
+    background-color: white;
+    padding: 0px 5px 1px 167px;
+    margin: 0;
+    z-index: 9999;
+    border-radius: 20px;
+}	
+
+p.venda5 {
+    color: white;
+    font-size: 11pt;
+    position: absolute;
+    left: 236px;
+    top: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+p.valor52 {
+    color: rgb(178,34,34);
+    font-size: 12pt;
+    position: absolute;
+    top: 483px;
+    left: 261px;
+    font-weight: bold;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 0px;
+}
+
+p.valor53 {
+    color: rgb(178,34,34);
+    font-size: 11pt;
+    position: absolute;
+    top: 498px;
+    left: 263px;
+    font-weight: bold;
+    font-weight: bolder;
+}
+	p.valor54 {
+    color: rgb(178,34,34);
+    font-size: 8pt;
+    position: absolute;
+    top: 515px;
+    left: 251px;
+    font-weight: bold;
+    font-weight: bolder;
+}		
+
+img.icone5 {
+    width: 36px;
+    height: 26px;
+    position: absolute;
+    top: 419px;
+    left: 377px;
+}			
+
+	/*Aqui termina conteudo5*/
+
+
+
+div.conteudo6 {
+    position: absolute;
+    left: 450px;
+    top: 321px;
+}
+
+
+div.fundoz6 {
+    background-color: #fffdb1;
+    padding: 89px 50px 50px 327px;
+    position: absolute;
+    top: 398px;
+    left: 40px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+img#fundo-geral {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    left: 40px;
+    top: 398px;
+    width: 206px;
+    height: 139px;
+    margin: 0px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+
+div#venda6 {
+    background-repeat: no-repeat;
+    background-position: 0px;
+    position: absolute;
+    top: 369px;
+    left: 41px;
+    padding: 100px 100px 100px 300px;
+    
+
+}
+
+div.venda6 {
+    background-color: #66655b;
+    position: absolute;
+    top: 29px;
+    left: 205px;
+    opacity: 0.4;
+    padding: 124px 15px 15px 156px;
+    border-radius: 0px 20px 20px 0px;
+}		
+
+div.linha6 {
+    position: absolute;
+    top: 115px;
+    left: 204px;
+    background-color: white;
+    padding: 0px 5px 1px 167px;
+    margin: 0;
+    z-index: 9999;
+    border-radius: 20px;
+}   
+
+p.venda6 {
+    color: white;
+    font-size: 11pt;
+    position: absolute;
+    left: 210px;
+    top: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+p.valor62 {
+    color: rgb(178,34,34);
+    font-size: 12pt;
+    position: absolute;
+    top: 484px;
+    left: 264px;
+    font-weight: bold;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 0px;
+}
+
+p.valor63 {
+    color: rgb(178,34,34);
+    font-size: 11pt;
+    position: absolute;
+    top: 499px;
+    left: 267px;
+    font-weight: bold;
+    font-weight: bolder;
+}
+	p.valor64 {
+    color: rgb(178,34,34);
+    font-size: 8pt;
+    position: absolute;
+    top: 515px;
+    left: 256px;
+    font-weight: bold;
+    font-weight: bolder;
+}		
+
+img.icone6 {
+    width: 36px;
+    height: 26px;
+    position: absolute;
+    top: 419px;
+    left: 379px;
+}
+
+
+
+
+
+
+		
+
+		
+
+		

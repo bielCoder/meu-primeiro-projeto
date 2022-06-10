@@ -1,0 +1,560 @@
+@charset = "UTF-8";
+
+
+		/*Aqui começa Estilização Principal*/
+
+body{
+				
+
+
+}
+
+
+		/*Aqui comeca logo*/
+div#logo{background-color: black;
+			width: 903px;
+			padding: 30px 850px 80px 0px;
+			position: absolute;
+			left: 320px;
+			top: 740px;
+			border-radius: 18px 18px 18px 18px;
+			box-shadow: 0px 0px 8px 5px gray;
+			
+			
+}
+
+img.logo3{
+	position: absolute;
+	top: -23px;
+	left: 112px;
+	margin: 0;
+	padding: 0;
+	z-index: 9999;
+}
+
+img.logo4{
+	position: absolute;
+	top: -23px;
+	left: 727px;
+	margin: 0;
+	padding: 0;
+	z-index: 9999;
+}
+
+
+
+img.logo2{
+	background-color: rgb(32, 34, 31);
+	position: absolute;
+	top: 620px;
+	left: 853px;
+
+
+}
+
+
+			h1.titulo {
+    color: rgb(248, 244, 118);
+    font-family: serif;
+    font-size: 40pt;
+    position: absolute;
+    top: 0px;
+    left: 208px;
+    margin: 0px;
+    font-weight: bold;
+    padding: 0px;
+    z-index: 9999;
+}
+
+	h2.sub {
+    color: #ffffff;
+    font-family: serif;
+    padding: 0px;
+    font-size: 20pt;
+    position: absolute;
+    left: 357px;
+    top: 64px;
+    margin: 0px;
+    font-weight: bold;
+    z-index: 9999;
+}
+
+
+img#sofa{
+				position: absolute;
+				left: 1096px;
+				top: 745px;
+				float: inline-block;
+				width: 250px;
+				margin: 0px;
+				padding: 0px;
+				z-index: 9999;
+			
+}
+		
+
+
+
+		/*Aqui é o posicionamento*/
+
+	div#posicao{position: absolute;
+				left: 50px;
+				margin-left: -150px;
+				top: -740px;
+				padding: 0px;
+				
+}
+
+		
+
+
+		/*Aqui comeca rodapé*/
+
+div#rodape {
+    background-color: black;
+    width: 896px;
+    padding: 30px;
+    position: absolute;
+    left: 322px;
+    top: 1448px;
+    border-radius: 0px 0px 18px 18px;
+    box-shadow: 0px 0px 10px 8px;
+    margin: 0px;
+}
+
+h2.fim {
+    color: #ffffff;
+    margin-left: 0px;
+    padding-left: 0px;
+    font-size: 20pt;
+    position: absolute;
+    left: 284px;
+    top: 14px;
+    margin: 0px;
+    font-family: serif;
+    align: center;
+}	
+		/*Aqui termina rodapé*/
+
+div#foco {
+    background-color: #ffffff;
+    width: 868px;
+    position: absolute;
+    left: 322px;
+    top: 764px;
+    padding: 100px 50px 150px 846px;
+    box-shadow: 2px 0px 15px 8px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0px;
+}
+div#banner{background-color: rgb(249, 219, 99);
+			position: absolute;
+			top: 150px;
+			left: 0px;
+			margin: 0px;
+			width: 896px;
+			padding: 201px 0px 0px 0px;
+}	
+div#banner2 {
+    background-color: rgb(249, 219, 99);
+    position: absolute;
+    top: 891px;
+    left: 0px;
+    margin: 0px;
+    width: 896px;
+    padding: 54px 0px 0px 0px;
+}
+
+
+div#interface{
+	position: absolute;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+	/*Aqui termina a estilização principal*/
+
+
+	/*Aqui comeca menu*/
+
+ul.cat li.sofa {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    font-size: 13pt;
+    font-family: arial serif;
+    width: 69px;
+    text-align: center;
+    border-radius: 15px;
+    transition: background-color 1s;
+}
+
+ul.cat li.pol {
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    display: inline-block;
+    width: 69px;
+    text-align: center;
+    border-radius: 0px;
+    transition: background-color 1s;
+    font-size: 13pt;
+    font-family: arial serif;
+    margin: 0px;
+    border-radius: 0px 0px 15px 14px;
+    padding: 0px;
+}
+
+    
+ul li a{
+    text-decoration: none;
+    display: block;
+
+
+}
+
+ul ul{
+    display: none;
+    
+}
+
+ul ul li{
+    display: block;
+    
+}
+
+ul li:hover ul{
+    display: block;
+
+
+}
+
+
+			li{
+				list-style:none;
+				display: inline-block;
+				
+			}
+				
+
+			li {
+    color: #ffffff;
+    background-color: #5f5a5c;
+    padding: 2px;
+    padding-left: 4px;
+    position: relative;
+    left: 525px;
+    top: 866px;
+    transition: background-color 1s;
+    font-size: 13pt;
+    font-family: arial serif;
+    margin: 0px;
+    border-radius: 20px;
+}
+
+
+
+
+			nav#menu li:hover{
+				background-color: rgb(179, 174, 166);
+			}
+
+div.navbar {
+    color: #ffffff;
+    position: absolute;
+    top: 866px;
+    left: 322px;
+    padding: 15px;
+    background-color: #626262;
+    width: 900px;
+    border-radius: 0px 0px 0px 0px;
+}
+                    
+                   
+div.navbar2 {
+    color: #ffffff;
+    position: absolute;
+    top: 1400px;
+    left: 322px;
+    padding: 15px;
+    background-color: #626262;
+    width: 896px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+			
+
+			/*Aqui comeca Titulo Principal*/
+
+
+p.principal {
+    font-family: 'fontlogo';
+    font-size: 32pt;
+    position: absolute;
+    left: 49px;
+    top: 8px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: langth;
+}
+p.principal3 {
+    font-family: 'fontlogo';
+    font-size: 32pt;
+    position: absolute;
+    left: 329px;
+    top: -4px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: langth;
+}
+
+
+
+p.para2 {
+    font-family: 'fontlogo';
+    font-size: 28pt;
+    position: absolute;
+    left: 288px;
+    top: 137px;
+    align: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+	a#cor{
+		color: black;
+		text-decoration: none;
+	}
+	
+
+			/*Aqui comeca o conteudo1*/
+
+
+           div.posicao {
+    position: absolute;
+    top: -219px;
+    left: -7px;
+}
+
+fieldset#formu legend.titu {
+    position: absolute;
+    left: 388px;
+    top: 398px;
+    background-color: #626262;
+    width: 210px;
+    color: #ffffff;
+    padding-left: 22px;
+    border-radius: 12px;
+    font-size: 15pt;
+    z-index: 9999;
+}
+
+input#nome {
+    position: absolute;
+    left: 440px;
+    top: 460px;
+    border-radius: 12px;
+    z-index: 9999;
+    box-shadow: 0.1px 0.1px 0.1px black;
+    background-color: #f0f0f0;
+}
+
+
+p.nome {
+    position: absolute;
+    top: 461px;
+    left: 388px;
+    z-index: 9999;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+input#email {
+    position: absolute;
+    left: 441px;
+    top: 505px;
+    border-radius: 12px;
+    z-index: 9999;
+    box-shadow: 0.1px 0.1px 0.1px black;
+    background-color: #f0f0f0;
+}
+
+
+
+p.email {
+    position: absolute;
+    left: 385px;
+    top: 508px;
+    font-size: 13pt;
+    color: black;
+    z-index: 9999;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+input#telefone {
+    position: absolute;
+    left: 441px;
+    top: 552px;
+    border-radius: 12px;
+    z-index: 9999;
+    box-shadow: 0.1px 0.1px 0.1px black;
+    background-color: #f0f0f0;
+}
+
+p.telefone {
+    position: absolute;
+    top: 554px;
+    left: 370px;
+    z-index: 9999;
+    font-weight: bold;
+}
+
+input#endereco {
+    position: absolute;
+    left: 441px;
+    top: 599px;
+    border-radius: 12px;
+    z-index: 9999;
+    box-shadow: 0.1px 0.1px 0.1px black;
+    background-color: #f0f0f0;
+}
+
+p.endereco {
+    position: absolute;
+    top: 600px;
+    left: 366px;
+    z-index: 9999;
+    font-weight: bold;
+}
+
+input#complemento {
+    position: absolute;
+    left: 441px;
+    top: 647px;
+    border-radius: 12px;
+    z-index: 9999;
+    box-shadow: 0.1px 0.1px 0.1px black;
+    background-color: #f0f0f0;
+}
+
+p.complemento {
+    position: absolute;
+    top: 649px;
+    left: 328px;
+    z-index: 9999;
+    font-weight: bold;
+}
+
+
+
+
+
+input#numero {
+    position: absolute;
+    left: 442px;
+    top: 695px;
+    border-radius: 12px;
+    z-index: 9999;
+    box-shadow: 0.1px 0.1px 0.1px black;
+    background-color: #f0f0f0;
+}
+
+
+
+
+p.numero {
+    position: absolute;
+    top: 697px;
+    left: 373px;
+    z-index: 9999;
+    font-weight: bold;
+}
+
+div.fundo-form {
+    background-color: #ffffff;
+    position: absolute;
+    top: 146px;
+    left: 293px;
+    padding: 405px 70px 70px 291px;
+    border-radius: 20px;
+    box-shadow: 0px -1px 6px black;
+}
+
+
+div.fundo-form2 {
+    background-color: #ffffff;
+    position: relative;
+    top: 50px;
+    left: -549px;
+    padding: 416px 50px 50px 303px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 15px black;
+}
+
+
+
+input.botao {
+    position: absolute;
+    top: 789px;
+    left: 464px;
+    z-index: 9999;
+}
+
+img.local {
+    width: 446px;
+    height: 200px;
+    position: absolute;
+    left: 0px;
+    top: 945px;
+}
+
+
+iframe{
+    position: absolute;
+    top: 945px;
+    left: 448px;
+}
+
+select.servicos {
+    position: absolute;
+    left: 471px;
+    top: 746px;
+    z-index: 9999;
+}
+
+p.select {
+    position: absolute;
+    left: 331px;
+    top: 746px;
+    z-index: 9999;
+    font-weight: bold;
+}
+
+
+/*setinha input number*/
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    
+    -webkit-appearance: none;
+    margin: 0; }
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+

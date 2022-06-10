@@ -1,0 +1,274 @@
+@charset ="utf-8";
+
+/* classes table */
+
+table {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    background-color: #696969;
+    border-radius: 18px;
+    color: #ffffff;
+}
+
+
+
+/*classes nome*/
+th.nome {
+    position: relative;
+    padding: 5px 0px 5px 0px;
+    left: 58px;
+    width: 962px;
+    margin: 0;
+    font-size: 13pt;
+}
+
+p.nome {
+    position: relative;
+    left: 0px;
+    top: -2px;
+    font-size: 13pt;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #ffffff;
+    padding: auto;
+    font-size: 13pt;
+    text-align: center;
+}
+
+div.nome {
+    background-color: #696969;
+    padding: auto;
+    position: relative;
+    left: -1265px;
+    top: -218px;
+    width: 159px;
+    color: #ffffff;
+    border-radius: 18px 0px 0px 18px;
+    margin-bottom: -470px;
+}
+/*classes email*/
+
+th.email {
+    position: relative;
+    left: -550px;
+    padding: -5px;
+    font-size: 13pt;
+}
+
+
+
+p.email {
+    position: relative;
+    left: 0px;
+    top: -2px;
+    font-size: 13pt;
+    color: #ffffff;
+    font-size: 13pt;
+    padding: auto;
+    text-align: center;
+}
+
+div.email {
+    background-color: #b6b6b6;
+    padding: auto;
+    position: relative;
+    left: -1106px;
+    top: 95px;
+    width: 277px;
+}
+
+
+
+/*classes telefone*/
+th.telefone {
+    position: relative;
+    left: -402px;
+    font-size: 13pt;
+}
+
+p.telefone {
+    position: relative;
+    left: 29px;
+    top: 0px;
+    color: #ffffff;
+    padding: auto;
+    font-size: 13pt;
+}
+
+
+
+div.telefone {
+    background-color: #696969;
+    padding: auto;
+    position: relative;
+    left: -829px;
+    top: 29px;
+    width: 147px;
+}
+/*classes endereco*/
+th.endereco {
+    position: relative;
+    left: -293px;
+    font-size: 13pt;
+}
+
+
+p.endereco {
+    position: relative;
+    left: 0px;
+    top: -1px;
+    margin: 0px;
+    padding: auto;
+    font-size: 13pt;
+    color: #ffffff;
+    text-align: center;
+}
+
+div.endereco {
+    background-color: #b6b6b6;
+    padding: auto;
+    position: relative;
+    left: -682px;
+    top: -37px;
+    width: 227px;
+
+}
+
+/*classes complemento*/
+
+th.complemento {
+    position: relative;
+    left: -198px;
+    font-size: 13pt;
+}
+
+
+p.complemento {
+    position: relative;
+    top: -1px;
+    left: 53px;
+    color: #ffffff;
+    margin-left: 0px;
+    padding: auto;
+    font-size: 13pt;
+}
+
+div.complemento {
+    background-color: #696969;
+    padding: auto;
+    position: relative;
+    left: -455px;
+    top: -87px;
+    width: 147px;
+}
+
+/*classes numero*/
+th.numero {
+    position: relative;
+    left: -140px;
+    font-size: 13pt;
+}
+
+p.numero {
+    position: relative;
+    left: 66px;
+    top: 0px;
+    color: #ffffff;
+    padding: auto;
+    font-size: 13pt;
+}
+
+div.numero {
+    background-color: #b6b6b6;
+    padding: auto;
+    position: relative;
+    left: -308px;
+    top: -153px;
+    width: 147px;
+}
+
+/*classes servicos*/
+
+th.servicos {
+    position: relative;
+    left: -65px;
+    font-size: 13pt;
+}
+
+p.servicos {
+    position: relative;
+    left: 14px;
+    top: -1px;
+    color: #ffffff;
+    padding: auto;
+    font-size: 13pt;
+}
+
+
+
+div.servicos {
+    background-color: #696969;
+    padding: auto;
+    position: relative;
+    left: -161px;
+    top: -219px;
+    width: 147px;
+}
+
+
+/*classes acoes*/
+th.acoes {
+    position: relative;
+    left: -16px;
+    margin: 0;
+    padding: 0;
+}
+
+img.icon {
+    width: 30px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    z-index: 9999;
+}
+
+a.icone {
+    position: relative;
+    top: 170px;
+    left: 15px;
+    z-index: 9999;
+}
+a.icone2 {
+    position: relative;
+    top: 145px;
+    left: -11px;
+    z-index: 9999;
+}
+
+img.icon2 {
+    width: 20px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+    z-index: 9999;
+}
+
+div.fundo-icon {
+    padding: 21px 13px 5px 44px;
+    background-color: #b6b6b6;
+    position: relative;
+    top: 121px;
+    left: -14px;
+    margin: 0px;
+    border-radius: 0px 18px 18px 0px;
+}
+
+div.pergunta{
+    background-color: #626262;
+    border-radius: 18px;
+    position: absolute;
+    top: 350px;
+    left: 350px;
+}
+

@@ -1,0 +1,42 @@
+@charset ="utf-8";
+input.login {
+    position: relative;
+    left: 63px;
+    top: 18px;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+input.senha {
+    position: relative;
+    left: -48px;
+    top: 48px;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+input.entrar {
+    position: relative;
+    left: -131px;
+    top: 83px;
+    margin: 0;
+}
+
+div.fundo-form {
+    position: absolute;
+    top: 142px;
+    left: 475px;
+    background-color: #626262;
+    margin: 0;
+    padding: 20px 20px 97px 83px;
+    border-radius: 0px 0px 18px 18px;
+}
+
